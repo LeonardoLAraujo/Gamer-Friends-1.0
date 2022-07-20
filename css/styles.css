@@ -1,0 +1,354 @@
+/* PADRÃO */
+*{
+    font-family: Arial, Helvetica, sans-serif; /* MUDAR DEPOIS */
+}
+
+/* BARRA DE CARREGAMENTO */
+.loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading img{
+    position: relative;
+    width: 25rem;
+    margin-bottom: 10%;
+}
+
+.loading .porcent{
+    color: #6f006f;
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* TELA DE INICIO */
+#img-inicio{
+    width: 20rem;
+    margin-top: 30%;
+}
+
+#texto-inicio{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 22%; 
+    margin-bottom: 7%;
+}
+
+#bntRegistrar-inicio,
+#bntEntrar-inicio{
+    text-align: center;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+#bntRegistrar-inicio button{
+    padding: 0.3rem 5rem 0.3rem 5rem;
+    background-color: #cf70cf;
+    border: none;
+}
+
+#bntRegistrar-inicio button:hover{
+    background-color: #a839a8;
+}
+
+#bntRegistrar-inicio button:focus{
+    box-shadow: none;
+}
+
+#bntEntrar-inicio button{
+    padding: 0.3rem 6.2rem 0.3rem 6.1rem;
+    background-color: #808080;
+    border: none;
+}
+
+#bntEntrar-inicio button:hover{
+    background-color: #4b4545;
+}
+
+#bntEntrar-inicio button:focus{
+    box-shadow: none;
+}
+
+@media(min-width: 768px){
+    #img-inicio{
+        width: 25rem;
+        margin-top: 20%;
+    }
+
+    #texto-inicio{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 18%; 
+        margin-bottom: 4%;
+    }
+}
+
+@media(min-width: 1200px){
+    #img-inicio{
+        margin-top: 15%;
+        width: 30rem;
+        left: 50%;
+    }
+
+    #texto-inicio{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10%; 
+        margin-bottom: 4%;
+    }
+}
+
+/* TELA DE CADASTRO E ENTRAR*/
+
+#link-Voltar {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#link-Voltar a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#link-Voltar a:hover{
+    color: #6f006f;
+}
+
+#tituloRegistrar{
+    margin-bottom: 6%;
+    margin-top: 15%;
+}
+
+#tituloRegistrar h1{
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    #tituloRegistrar{
+        margin-bottom: 6%;
+        margin-top: 2%;
+    }
+
+    #link-Voltar a{
+        font-size: 25px;
+    }
+}
+
+.form-control{
+    padding: 1%;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #6f006f;
+}
+
+.form-check{
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+.form-check a{
+    color: #6f006f;
+}
+
+.form-check:focus{
+    cursor: pointer;
+}
+
+.form-check a:hover{
+    color: #cf70cf;
+}
+
+.espaco{
+    margin-bottom: 10%;
+}
+
+/* NAVBAR */
+#menu .nav-item{
+    text-align: left;
+    color: #000;
+}
+
+#menu .nav-item a{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+#menu .nav-item a:hover{
+    padding: 2%;
+    border: 1px solid #4b4545;
+    border-radius: 4%;
+    background-color: #b3b2b2;
+}
+
+#close{
+    color: red; 
+    text-decoration: none;
+}
+
+.modal-footer{
+    background-color: #b3b2b2;
+}
+
+.modal-footer #cancelar{
+    background-color: #b3b2b2;
+    border: none;
+    color: #fff;
+}
+
+.modal-footer .btn.btn-danger{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.modal.fade{
+    top: 30%;
+}
+
+/* TELA PRINCIPAL */
+.navbar.fixed-top{
+    background: linear-gradient(#993399, #bf40bf, #b24db2);
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+#conteudo{
+    margin-top: 18%;
+}
+
+@media(min-width: 768px){
+    #conteudo{
+        margin-top: 5%;
+    }
+
+    .carousel-inner{
+        height: 34rem;
+    }
+}
+
+#title-h2{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#title-comunidade{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#nav-bottom{
+    background-color: #784a78;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.bi.bi-house-door-fill{
+    font-size: 30px;
+}
+
+.bi.bi-people-fill{
+    font-size: 30px;
+}
+
+.bi.bi-search{
+    font-size: 30px;
+}
+
+#nav-bottom a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#nav-bottom a:hover{
+    background-color: #6f006f;
+}
+
+/* COMUNIDADE */
+#nave-tipo a{
+    text-decoration: none;
+    color: #000;
+}
+
+#nave-tipo a:hover{
+    color: #6f006f;
+}
+
+#title-comunidade{
+    margin-top: 18%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+#mobile{
+   margin-left: 10%;
+}
+
+#jogosPC{
+    border-bottom: 2px solid #6f006f;
+}
+
+#mobile{
+    border-bottom: 2px solid #6f006f;
+}
+
+#atual{
+    background-color: #793579;
+}
+
+#atual  a{
+    color:#fff
+}
+
+.card-text{
+    color: #b3b2b2;
+}
+
+#btn-rankeada{
+    display: block;
+}
+
+/* BUSCAR */
+#buscar{
+    width: 86%;
+    height: 50px;
+}
+
+#btn-buscar{
+    padding: 0% 5% 0% 5%;
+    background-color: #784a78;
+    color: #fff;
+    border: 1px solid #784a78;
+}
+
+#btn-buscar:focus{
+    box-shadow: none;
+}
+
+#btn-buscar:hover{
+    background-color: #fff;
+    color: #784a78;
+}
+
+.title-pesquisa{
+    color: #b3b2b2;
+}
+
+#notificacao{
+    text-align: center;
+}
